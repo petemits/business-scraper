@@ -7,7 +7,7 @@
 **Entry Point**: `main.py`  
 **Codebase**: 5 source files, 828 lines of production‑ready code  
 **Architecture**: Object‑oriented  
-**Key Components**: 1 class(es): BusinessWebsiteScraper, 34 function(s): extract_team, scrape_from_csv, scrape_website, extract_links, looks_like_address
+**Key Components**: 1 class(es): BusinessWebsiteScraper, 34 function(s): compile_results, clean_text, normalize_url, extract_emails, extract_phones
 
 Batch scraper for multiple websites
 
@@ -24,9 +24,9 @@ Batch scraper for multiple websites
 - **Competitive Advantage**: Provides real‑time intelligence that outpaces competitors.
 - **Future‑Proof**: Designed to integrate with emerging AI and cloud technologies.
 
-## 🧠 My Approach: The Full-Stack Pragmatist
+## 🧠 My Approach: The Quality Guardian
 
-I span the entire stack – from database design to UI components. I make pragmatic choices that balance speed, cost, and quality.
+I champion test‑driven development and automated QA. I ensure your code is robust, bug‑free, and regression‑safe.
 
 ### 📌 My Focus & Track Record
 - **Role**: Intelligent Automation Engineer
@@ -38,7 +38,7 @@ I span the entire stack – from database design to UI components. I make pragma
 ### 🎯 Why This Project Exists
 **business-scraper** is a direct reflection of this approach – a practical, battle‑tested component designed to solve a specific, high‑value business problem.
 
-**For Growing Teams**: I am a versatile engineer who can fill gaps across the development lifecycle.
+**For QA Teams**: I reduce production incidents through comprehensive test coverage.
 
 I am open to conversations about how I can apply this mindset to your organisation.
 ## 🎯 Revenue‑Generating Use Cases
@@ -49,15 +49,13 @@ I am open to conversations about how I can apply this mindset to your organisati
 ## 💡 Benefits & Ecosystem Integration
 
 ### ✨ Key Benefits
-- Vendor Lock‑in Avoidance: Builds with open standards, ensuring flexibility and portability.
-- Reduced Technical Debt: Maintains clean, modular, and well‑tested codebases that are easy to extend.
-- Personalised Customer Experiences: Delivers tailored interactions based on user behaviour and preferences.
-- Resource Optimisation: Maximises output while minimising input, improving overall efficiency.
-- High Availability & Uptime: Ensures mission‑critical systems are always accessible to users.
-- Faster Time‑to‑Market: Reduces development cycles, allowing you to beat competitors to launch.
-- Risk Reduction: Automates compliance checks and error‑prone processes, minimising human error.
-- Reduced Churn: Proactively identifies and addresses factors that cause customer attrition.
-- User Retention: Enhances customer experience through personalisation and faster response times.
+- Scalability: Designed to handle growing volumes without proportional cost increases.
+- Seamless Third‑Party Integration: Connects effortlessly with external services, extending your ecosystem.
+- Real‑Time Monitoring & Observability: Provides deep system visibility, enabling proactive issue resolution.
+- Actionable Business Insights: Transforms raw metrics into strategic intelligence.
+- Effortless Maintenance: Designed for easy updates, patching, and long‑term supportability.
+- Improved Developer Productivity: Streamlines workflows, reduces boilerplate, and improves developer happiness.
+- Cost Reduction: Lowers infrastructure and operational costs through intelligent automation.
 
 ### 🔗 Integrations
 - REST / GraphQL APIs (external services)
@@ -65,10 +63,11 @@ I am open to conversations about how I can apply this mindset to your organisati
 
 ## 📈 Scale to SaaS & Beyond
 
-- CI/CD Pipeline: Integrate GitHub Actions to automate testing and deployment with every commit.
-- Multi‑Tenancy: Extend to support multiple customers with isolated data and custom configurations.
-- API Monetisation: Wrap the core logic in a REST/GraphQL API and sell access via a subscription model.
 - Cloud Deployment: Containerise with Docker and deploy to AWS, GCP, or Azure for global availability.
+- Event‑Driven Architecture: Integrate with message queues (Kafka, RabbitMQ) for asynchronous workflows.
+- Multi‑Tenancy: Extend to support multiple customers with isolated data and custom configurations.
+- Third‑Party Integrations: Expand to additional CRM, ERP, or marketing automation tools.
+- Analytics Dashboard: Add real‑time monitoring and business intelligence dashboards.
 
 ## 🤖 AI Tools & Integrations (A–Z)
 
@@ -129,6 +128,24 @@ This project is designed to integrate seamlessly with a wide range of AI tools a
 | **ZenML** | MLOps framework for reproducible pipelines. |
 
 *This is a living list – new tools are constantly emerging. The modular design of this project makes it easy to plug in any AI service.*
+## 💻 AI Code Generation Tools (Free & Paid)
+
+To accelerate development, you can integrate these AI tools for code generation, autocompletion, and documentation. Pricing models are noted below.
+
+| Tool | Description | Pricing |
+| :--- | :--- | :--- |
+| **GitHub Copilot** | AI pair programmer. Free for open-source and verified students; paid plans from $10/month. | Freemium |
+| **Tabnine** | AI code completion for multiple languages. Free tier available; paid Pro from $12/month. | Freemium |
+| **Codeium** | AI-powered autocomplete and chat. Completely free for individual developers. | Free |
+| **Cursor** | AI-first code editor with built-in Copilot-like features. Free tier available; paid plans start at $20/month. | Freemium |
+| **Amazon CodeWhisperer** | AWS service for real‑time code suggestions. Free tier included; paid with AWS subscription. | Freemium |
+| **Replit Ghostwriter** | AI assistant in Replit's online IDE. Free tier included; paid plans from $7/month. | Freemium |
+| **Bito AI** | Code generation and explanation. Free for individuals; paid team plans. | Freemium |
+| **Sourcegraph Cody** | AI assistant for code understanding and generation. Free for individuals and open-source; paid for enterprise. | Freemium |
+| **Mintlify** | AI-powered documentation generator. Free tier; paid plans for teams. | Freemium |
+| **MightyMeld** | AI for React component generation. Free trial; paid plans from $15/month. | Freemium |
+
+*Most tools offer free tiers – perfect for personal projects and learning. Paid plans unlock higher limits and team features.*
 
 ## 📁 Project Structure
 ## 🚀 Full Program Guide (How to Run)
